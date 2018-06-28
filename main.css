@@ -1,0 +1,475 @@
+.bounce {
+	-moz-animation: bounce infinite 2s;
+	-webkit-animation: bounce infinite 2s;
+	animation: bounce infinite 2s;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.progresssStep{
+    border-radius: 50%;
+    font-size: 200%;
+    display: inline-block;
+    margin-top: 2%;
+    width: 50px;
+    height: 50px;
+    transition-property: all;
+    transition-duration: 1000ms;
+}
+
+.mnvrBtn{
+    margin: 0 0 0 0;
+    transition-property: all;
+    transition-duration: 400ms;
+}
+
+.nxtBtn{
+    position: fixed;
+    margin-left: 55%;
+    background: #2196f3;
+    transition-property: all;
+    transition-duration: 600ms;
+}
+
+.nxtBtn:hover{
+    position: fixed;
+    margin-left: 55%;
+    background: #1976d2;
+}
+
+.person-hair{
+    fill: brown;
+}
+
+#person{
+    margin: 0 0 0 150%;
+    display: none;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+#person1{
+    margin: 0 0 0 150%;
+    display: none;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.womanBtn{
+    display: none;
+}
+
+path.selected{
+    fill: orangered;
+}
+
+ellipse.selected{
+    fill: orangered;
+}
+
+#questions{
+    display: none;
+    position: fixed;
+    transition-property: margin;
+    transition-duration: 600ms;
+    margin: 8% 0 0 100%;
+    width: 65%;
+}
+
+.questionBtn{
+    margin-top: 1%;
+    width: 25%;
+    background: #2196f3;
+}
+
+.questionBtn:hover{
+    background: #1976d2;
+}
+
+.genderPics{
+    margin: 15% 0 0 10%;
+    transition-property: margin;
+    transition-duration: 400ms;
+    
+}
+
+.line{
+    border-top: 1px solid lightgray;
+    margin: 10% 0 0 36.5%;
+    position: fixed;
+    width: 20%;
+    transform: rotate(90deg);
+}
+
+#btnVr{
+    position: relative;
+    margin: 1% 0 0 15%;
+    background: #2196f3;
+
+}
+
+#btnVr:hover{
+    background: #1976d2;
+
+}
+
+#btnMn{
+    position: relative;
+    margin: 1% 0 0 160px;
+    background: #2196f3;
+
+}
+
+#btnMn:hover{
+    background: #1976d2;
+
+}
+
+#question{
+    position: fixed;
+    margin: 22% 0 0 45%;
+    transition-property: margin;
+    transition-duration: 400ms;
+}
+
+img{
+    height: 200px;
+}
+
+.person-silhouette{
+    fill: rgb(255, 231, 235);
+}
+
+.person-parts{
+    fill: rgb(211, 182, 187);
+}
+
+.rangeSlider{
+    display: none;
+    margin: 10% 0 0 130%;
+    transition-property: margin;
+    transition-duration: 500ms;
+    
+}
+
+#leeftijd{
+    position: relative;
+    width: 65%;
+    margin-bottom: 7%;
+
+}
+
+#lengte{
+    position: relative;
+    margin-bottom: 7%;
+    width: 65%;
+}
+
+#gewicht{
+    position: relative;
+    margin-bottom: 7%;
+    width: 65%;
+    
+}
+
+.rangeTitle{
+    font-weight: bold;
+    
+}
+
+#rangeTitle{
+    position: absolute;
+    margin: 0% 0 0 50%;
+    
+}
+
+#rangeTitle2{
+    position: absolute;
+    margin: 0% 0 0 50%;
+    
+}
+
+#rangeTitle3{
+    position: absolute;
+    margin: 0% 0 0 50%;
+    
+}
+
+.submitBtn{
+    width: 100%;
+    font-weight: bold;
+    background: #2196f3;
+}
+
+.submitBtn:hover{
+    background: #1976d2;
+}
+
+.bmiUitslag{
+    display: none;
+    margin: 10% 0 0 0%;
+    transition-property: all;
+    transition-duration: 400ms;
+}
+
+.bmiAdvies{
+    transition-property: all;
+    transition-duration: 400ms;
+}
+
+.submitBtn2{
+    width: 100%;
+    font-weight: bold;
+    background: #2196f3;
+}
+
+.submitBtn2:hover{
+    background: #1976d2;
+}
+
+.leadForm{
+    margin: 5% 0 0 0%;
+}
+
+.errorMessage{
+    display: none;
+}
+
+.succesMessage{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+
+    .genderPics{
+        margin: 10% 0 0 5%;
+        
+    }
+
+    img{
+        height: 150px;
+    }
+
+    #btnVr{
+        position: fixed;
+        margin: 2% 0 0 9%;
+        background: #2196f3;
+    
+    }
+    
+    #btnMn{
+        position: fixed;
+        margin: 2% 0 0 33%;
+        background: #2196f3;
+    
+    }
+
+    #question{
+        position: fixed;
+        margin: 24% 0 0 55%;
+    }
+
+    #questions{
+        display: none;
+        position: fixed;
+        margin: 12% 0 0 6%;
+        width: 100%;
+    }
+
+    .nxtBtn{
+        position: fixed;
+        margin-left: 68%;
+        background: #2196f3;
+    }
+
+    #leeftijd{
+        position: relative;
+        width: 55%;
+        margin-bottom: 7%;
+    
+    }
+    
+    #lengte{
+        position: relative;
+        margin-bottom: 7%;
+        width: 55%;
+    }
+    
+    #gewicht{
+        position: relative;
+        margin-bottom: 7%;
+        width: 55%;
+        
+    }
+
+    .bmiUitslag{
+        display: none;
+        margin-top: 3%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .genderPics{
+        margin: 30% 0 0 5%;
+        
+    }
+
+    .stepTitle{
+        font-size: 250%;
+    }
+
+    .bmiAdvies{
+        font-size: 200%;
+    }
+
+    #question{
+        position: fixed;
+        margin: 22% 0 0 17%;
+    }
+
+    img{
+        height: 150px;
+        width: 150px;
+
+    }
+
+    #btnVr{
+        position: fixed;
+        margin: 2% 0 0 13%;
+        background: #2196f3;
+    
+    }
+
+    
+    
+    #btnMn{
+        position: fixed;
+        margin: 2% 0 0 57%;
+        background: #2196f3;
+    
+    }
+
+    #questions{
+        display: none;
+        position: fixed;
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .questionBtn{
+        margin-top: 1.5%;
+        width: 30%;
+        background: #2196f3;
+    }
+
+    #person{
+        padding: 10% 0 0 0%;
+        display: none;
+        position: relative;
+        transition-property: all;
+        transition-duration: 1000ms;
+    }
+    
+    #person1{
+        padding: 10% 0 0 0%;
+        display: none;
+        transition-property: all;
+        transition-duration: 1000ms;
+    }
+
+    .nxtBtn{
+        position: fixed;
+        margin: 57% 0 0 32%;
+        width: 40%;
+        background: #2196f3;
+    }
+
+    #rangeTitle2{
+        font-weight: bold;
+        font-size: 150%;
+        position: relative;
+        margin: 0 0 2% 15%;
+    }
+
+    #rangeTitle{
+        font-weight: bold;
+        font-size: 150%;
+        position: relative;
+        margin: 0 0 2% 20%;
+    }
+
+    #rangeTitle3{
+        font-weight: bold;
+        font-size: 150%;
+        position: relative;
+        margin: 0 0 2% 15%;
+    }
+
+    #leeftijd{
+        position: relative;
+        width: 100%;
+        margin-bottom: 15%;
+    
+    }
+    
+    #lengte{
+        position: relative;
+        margin-bottom: 15%;
+        width: 100%;
+    }
+    
+    #gewicht{
+        position: relative;
+        margin-bottom: 5%;
+        width: 100%;
+        
+    }
+    
+}
